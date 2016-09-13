@@ -12,4 +12,4 @@ Deployment
 
 The deployment instructions for this section have been moved into a dedicated repository:
 
-https://github.com/jgf/concourse-bosh-lite
+https://github.com/starkandwayne/concourse-bosh-lite
