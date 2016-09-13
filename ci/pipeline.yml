@@ -18,13 +18,13 @@ resources:
 - name: repo
   type: git
   source:
-    uri: git@github.com:starkandwayne/concourse-tutorial.git
+    uri: git@github.com:jgf/concourse-tutorial.git
     branch: {{tile-branch}}
     private_key: {{github-key}}
 - name: repo-image
   type: git
   source:
-    uri: git@github.com:starkandwayne/concourse-tutorial.git
+    uri: git@github.com:jgf/concourse-tutorial.git
     branch: {{tile-branch}}
     private_key: {{github-key}}
     paths: [ci/ci_image/*]
@@ -34,4 +34,4 @@ resources:
     email: {{docker-hub-email}}
     username: {{docker-hub-username}}
     password: {{docker-hub-password}}
-    repository: starkandwayne/concourse-tutorial-ci
+    repository: jgf/concourse-tutorial-ci
